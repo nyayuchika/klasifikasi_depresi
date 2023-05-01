@@ -70,6 +70,7 @@ def depression_predict(tweet):
 
     # Remove Stopwords
     nltk.download('stopwords')
+    nltk.download('punkt')
     text_tokens = word_tokenize(normalize_alay)
     tokens_without_sw = [word for word in text_tokens if not word in stopwords.words()]
     filtered_sentence = (" ").join(tokens_without_sw)
