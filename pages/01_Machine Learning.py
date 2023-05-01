@@ -24,6 +24,10 @@ page_bg = """
 [data-testid="stHeader"]{
   background-color: #30dccf;
 }
+
+[data-testid="stSidebar"]{
+  background-color: #bcf7f2;
+}
 </style>
 """
 st.markdown(page_bg, unsafe_allow_html=True)
