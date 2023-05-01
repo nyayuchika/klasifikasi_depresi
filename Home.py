@@ -13,7 +13,7 @@ page_bg = """
 }
 
 [data-testid="stHeader"]{
-  background-color: #778da9;
+  background-color: #30dccf;
 }
 </style>
 """
@@ -23,8 +23,8 @@ container = st.container()
 with container:
   home1, home2 = st.columns([11,8])
   with home1:
-    st.title("Depression detection through your tweet")
-    st.subheader("Input your tweet and get the result!")
+    st.title("Deteksi depresi berdasarkan tweet anda")
+    st.subheader("Masukkan tweet anda dan dapatkan hasilnya.")
     if st.button("Get Started"):
       switch_page("Machine Learning")
   with home2:

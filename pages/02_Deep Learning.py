@@ -14,7 +14,7 @@ page_bg = """
 }
 
 [data-testid="stHeader"]{
-  background-color: #778da9;
+  background-color: #30dccf;
 }
 </style>
 """
