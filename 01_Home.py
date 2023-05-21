@@ -30,7 +30,7 @@ with container:
     st.title("Deteksi depresi berdasarkan tweet anda")
     st.subheader("Masukkan tweet anda dan dapatkan hasilnya.")
     if st.button("Get Started"):
-      switch_page("Machine Learning")
+      switch_page("Deep Learning")
   with home2:
     @st.cache_data
     def load_lottieurl(url: str):
